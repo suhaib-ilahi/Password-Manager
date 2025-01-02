@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
+ rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div id="container">
+        <h1>Password Manager</h1>
+        <br/>
+
+        <table class="displayPass">
+            
+            <caption>Your Password List</caption>
+            
+            <!-- <tr>
+               <th>Website</th>
+               <th>Username</th>
+               <th>Password</th>
+               <th>Actions</th>
+            </tr> -->
+            <!-- <tr>
+                <td>google</td>
+                <td>abc@<button>Copy</button></td>
+                <td>kdjd<button>Copy</button></td>
+                <td><button>Delete</button></td>
+            </tr> -->
+        </table>
+    </div>
+    <div class="addPass">
+        <br/>
+      
+        <br/>
+        <div class="form">
+            <h2>Add a Authentication Credentials</h2>
+        <form action="/submit">
+            <label for="username">Username :</label>
+            <input type="text" id="username" placeholder="Enter your Email/Username">
+           <br/>
+           <br/>
+            <label for="password">Password :</label>
+            <input type="password" id="password" placeholder="Pass@123xyz">
+           <br/>
+           <br/>
+            <label for="website">Website  :</label>
+            <input type="text" id="website" placeholder="Enter Platform/Website name">
+            <br/>
+            <br/>
+            <input id="submitButton" type="submit" >
+        </form>
+    </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
